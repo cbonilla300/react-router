@@ -40,12 +40,14 @@ function App() {
 
           <footer className='footer'>
 
-            <Link to={"/home"}>Home</Link>
-            <Link to={"/blue"}>Blue</Link >
-            <Link to={"/red"}>Red</Link>
-            <Link to={"/yellow"}>Yellow</Link>
-            <Link to={"/green"}>Green</Link>  
-            
+          
+            <Link id='home-navbar' to={"/home"}>Home</Link>
+            <Link id='blue-navbar' to={"/blue"}>Blue</Link >
+            <Link id='red-navbar' to={"/red"}>Red</Link>
+            <Link id='yellow-navbar' to={"/yellow"}>Yellow</Link>
+            <Link id='green-navbar' to={"/green"}>Green</Link>  
+          
+
           </footer>
 
         </div>
